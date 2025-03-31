@@ -1,0 +1,29 @@
+{
+    "name": "TODO LIST",
+    "short_name": "TODO LIST",
+    "start_url": ".",
+    "background_color": "#f4f4f4",
+    "theme_color": "#000",
+    "display": "standalone",
+    "lang": "en",
+    "orientation": "any",
+    "description": "Strona todo list ",
+    "scope": "https://reimster206.github.io/PWAtest/projekt2025/",
+    "prefer_related_applications": true,
+    "dir": "auto",
+    "handle_links":"preferred",
+    "icons": [
+        {
+            "src": "img/logo192.png",
+            "sizes": "192x192",
+            "type": "img/png",
+            "purpose": "any"
+        },
+        {
+            "src": "img/logo512.png",
+            "sizes": "512x512",
+            "type": "img/png",
+            "purpose": "maskable"
+        }
+    ]
+}
