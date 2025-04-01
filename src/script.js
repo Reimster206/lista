@@ -11,18 +11,15 @@ var TodoList = /** @class */ (function () {
         this.todos = [];
         this.nextId = 1;
     }
-    // Dodaj zadanie
     TodoList.prototype.addTask = function (task) {
         var newTodo = new Todo(this.nextId++, task);
         this.todos.push(newTodo);
         this.render();
     };
-    // Usuń zadanie
     TodoList.prototype.removeTask = function (id) {
         this.todos = this.todos.filter(function (todo) { return todo.id !== id; });
         this.render();
     };
-    // Zmień status zadania na ukończone/nieukończone
     TodoList.prototype.toggleTask = function (id) {
         var todo = this.todos.find(function (todo) { return todo.id === id; });
         if (todo) {
@@ -30,7 +27,6 @@ var TodoList = /** @class */ (function () {
             this.render();
         }
     };
-    // Wyświetl listę zadań
     TodoList.prototype.render = function () {
         var todoListElement = document.getElementById('todoList');
         todoListElement.innerHTML = '';

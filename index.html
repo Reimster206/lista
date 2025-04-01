@@ -5,148 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>To-Do List</title>
   <link rel="shortcut icon" href="img/logo192.png" type="image/x-icon">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-      justify-content: center;
-      justify-items: center;
-    }
-  
-    h1 {
-      text-align: center;
-      margin-top: 60px;
-    }
-
-    .cale{
-        width: 700px;
-        margin: auto;
-    }
-  
-    .container {
-      width: 100%;
-      max-width: 600px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-  
-    input[type="text"] {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 10px;
-      border: 2px solid #ddd;
-      border-radius: 4px;
-      font-size: 16px;
-    }
-  
-    button {
-      width: 100%;
-      padding: 10px;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      border-radius: 4px;
-      font-size: 16px;
-      cursor: pointer;
-      margin-bottom: 20px;
-    }
-  
-    button:hover {
-      background-color: #45a049;
-    }
-  
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-  
-    li {
-      background-color: white;
-      padding: 15px;
-      margin-bottom: 10px;
-      border-radius: 4px;
-      display: flex;
-      flex-direction: column; 
-      justify-content: flex-start; 
-      word-wrap: break-word;
-      text-align: center;
-    }
-  
-    li.completed {
-      text-decoration: line-through;
-      color: gray;
-    }
-  
-    li .task {
-      margin-bottom: 10px; 
-    }
-  
-    li .buttons {
-      display: flex;
-      justify-content: space-between; 
-      gap: 10px; 
-    }
-  
-    li button {
-      background-color: #f44336;
-      color: white;
-      border: none;
-      border-radius: 4px;
-      padding: 8px;
-      cursor: pointer;
-      font-size: 14px;
-    }
-  
-    li button:hover {
-      background-color: #e53935;
-    }
-  
-    @media (max-width: 600px) {
-      .container {
-        padding: 10px;
-      }
-
-      .cale{
-        width: 500px;
-      }
-  
-      input[type="text"] {
-        font-size: 14px;
-      }
-  
-      button {
-        font-size: 14px;
-      }
-  
-      li {
-        font-size: 14px;
-      }
-    }
-  
-    @media (max-width: 400px) {
-      button {
-        font-size: 12px;
-        padding: 8px;
-      }
-      .cale{
-        width: 380px;
-      }
-  
-      li button {
-        padding: 6px;
-        font-size: 12px;
-      }
-  
-      li {
-        padding: 10px;
-      }
-    }
-  </style>
-  
-  
-  
+  <link rel="stylesheet" href="src/master.css"> 
+  <link rel="manifest" href="manifest.json"> 
 </head>
 <body>
     <div class="cale">
@@ -159,6 +19,7 @@
     </div>
   
 
-  <script src="script.js"></script>
+  <script src="src/script.js"></script>
+  <script src="sw.js"></script>
 </body>
 </html>

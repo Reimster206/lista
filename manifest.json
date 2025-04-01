@@ -8,7 +8,7 @@
     "lang": "en",
     "orientation": "any",
     "description": "Strona todo list ",
-    "scope": "https://reimster206.github.io/PWAtest/projekt2025/",
+    "scope": "https://reimster206.github.io/list",
     "prefer_related_applications": true,
     "dir": "auto",
     "handle_links":"preferred",
