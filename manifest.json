@@ -7,7 +7,7 @@
     "display": "standalone",
     "lang": "en",
     "orientation": "any",
-    "description": "Strona todo list ",
+    "description": "Strona todo list",
     "scope": "https://reimster206.github.io/list",
     "prefer_related_applications": true,
     "serviceWorker":true,
